@@ -8,6 +8,9 @@ class MY_Controller extends CI_Controller{
     function __construct()
     {
         parent:: __construct();
+        $this->load->library(array('Site'));
+        $this->load->helper(array());
+        $this->load->model(array());
     }
 
 }
